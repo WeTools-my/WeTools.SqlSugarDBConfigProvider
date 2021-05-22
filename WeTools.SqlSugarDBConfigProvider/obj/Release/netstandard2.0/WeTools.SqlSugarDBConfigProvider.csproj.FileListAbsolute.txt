@@ -1,0 +1,9 @@
+E:\Git\Github\WeTools.SqlSugarDBConfigProvider\WeTools.SqlSugarDBConfigProvider\bin\Release\netstandard2.0\WeTools.SqlSugarDBConfigProvider.deps.json
+E:\Git\Github\WeTools.SqlSugarDBConfigProvider\WeTools.SqlSugarDBConfigProvider\bin\Release\netstandard2.0\WeTools.SqlSugarDBConfigProvider.dll
+E:\Git\Github\WeTools.SqlSugarDBConfigProvider\WeTools.SqlSugarDBConfigProvider\bin\Release\netstandard2.0\WeTools.SqlSugarDBConfigProvider.pdb
+E:\Git\Github\WeTools.SqlSugarDBConfigProvider\WeTools.SqlSugarDBConfigProvider\obj\Release\netstandard2.0\WeTools.SqlSugarDBConfigProvider.csprojAssemblyReference.cache
+E:\Git\Github\WeTools.SqlSugarDBConfigProvider\WeTools.SqlSugarDBConfigProvider\obj\Release\netstandard2.0\WeTools.SqlSugarDBConfigProvider.AssemblyInfoInputs.cache
+E:\Git\Github\WeTools.SqlSugarDBConfigProvider\WeTools.SqlSugarDBConfigProvider\obj\Release\netstandard2.0\WeTools.SqlSugarDBConfigProvider.AssemblyInfo.cs
+E:\Git\Github\WeTools.SqlSugarDBConfigProvider\WeTools.SqlSugarDBConfigProvider\obj\Release\netstandard2.0\WeTools.SqlSugarDBConfigProvider.csproj.CoreCompileInputs.cache
+E:\Git\Github\WeTools.SqlSugarDBConfigProvider\WeTools.SqlSugarDBConfigProvider\obj\Release\netstandard2.0\WeTools.SqlSugarDBConfigProvider.dll
+E:\Git\Github\WeTools.SqlSugarDBConfigProvider\WeTools.SqlSugarDBConfigProvider\obj\Release\netstandard2.0\WeTools.SqlSugarDBConfigProvider.pdb
