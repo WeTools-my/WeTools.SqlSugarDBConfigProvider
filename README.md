@@ -1,11 +1,11 @@
 # WeTools.SqlSugarDBConfigProvider
 
-## ½éÉÜ
+## ä»‹ç»
 
-sqlsugar ¶ÁÈ¡Êı¾İ¿âÅäÖÃÀ©Õ¹¿â,ÊÊÓÃÓÚ¶àÖÖÊı¾İ¿âÀàĞÍ.
+sqlsugar è¯»å–æ•°æ®åº“é…ç½®æ‰©å±•åº“,é€‚ç”¨äºå¤šç§æ•°æ®åº“ç±»å‹.
 
-NameÁĞµÄÖµ×ñÑ­.NETÖĞÅäÖÃµÄ¡°¶à²ã¼¶Êı¾İµÄ±âÆ½»¯¡±
-ÈçÏÂ¶¼ÊÇºÏ·¨µÄNameÁĞµÄÖµ£º
+Nameåˆ—çš„å€¼éµå¾ª.NETä¸­é…ç½®çš„â€œå¤šå±‚çº§æ•°æ®çš„æ‰å¹³åŒ–â€
+å¦‚ä¸‹éƒ½æ˜¯åˆæ³•çš„Nameåˆ—çš„å€¼ï¼š
 
 ```
 Api:Jwt:Audience
@@ -13,9 +13,9 @@ Age
 Api:Names:0
 Api:Names:1
 ```
-ValueÁĞµÄÖµÓÃÀ´±£´æNameÀà¶ÔÓ¦µÄÅäÖÃµÄÖµ¡£
-ValueµÄÖµ¿ÉÒÔÊÇÆÕÍ¨µÄÖµ£¬Ò²¿ÉÒÔÊ¹ÓÃjsonÊı×é£¬Ò²¿ÉÒÔÊÇjson¶ÔÏó¡£
-±ÈÈçÏÂÃæ¶¼ÊÇºÏ·¨µÄValueÖµ£º
+Valueåˆ—çš„å€¼ç”¨æ¥ä¿å­˜Nameç±»å¯¹åº”çš„é…ç½®çš„å€¼ã€‚
+Valueçš„å€¼å¯ä»¥æ˜¯æ™®é€šçš„å€¼ï¼Œä¹Ÿå¯ä»¥ä½¿ç”¨jsonæ•°ç»„ï¼Œä¹Ÿå¯ä»¥æ˜¯jsonå¯¹è±¡ã€‚
+æ¯”å¦‚ä¸‹é¢éƒ½æ˜¯åˆæ³•çš„Valueå€¼ï¼š
 
 ```
 ["a","d"]
@@ -24,37 +24,37 @@ ValueµÄÖµ¿ÉÒÔÊÇÆÕÍ¨µÄÖµ£¬Ò²¿ÉÒÔÊ¹ÓÃjsonÊı×é£¬Ò²¿ÉÒÔÊÇjson¶ÔÏó¡£
 ccc
 ```
 
-## Ê¹ÓÃ
-1.ÔÚvs ÖĞÌí¼Ó°ü
+## ä½¿ç”¨
+1.åœ¨vs ä¸­æ·»åŠ åŒ…
 WeTools.SqlSugarDBConfigProvider
-»òÕßÊ¹ÓÃpm
+æˆ–è€…ä½¿ç”¨pm
 
 ```
  Install-Package WeTools.SqlSugarDBConfigProvider -Version 1.0.0
 ```
-2.À©Õ¹·½·¨
+2.æ‰©å±•æ–¹æ³•
 
 ```
-AddSqlSugarMysqlConfiguration(this IConfigurationBuilder builder)  Ê¹ÓÃ´Ë·½·¨ĞèÒªÔÚÅäÖÃÎÄ¼şĞÂÔö¹Ì¶¨½Úµã WeTools £¬³ÌĞò»á×Ô¶¯½âÎö×Ó½Úµã¡£
+AddSqlSugarDBConfiguration(this IConfigurationBuilder builder)  ä½¿ç”¨æ­¤æ–¹æ³•éœ€è¦åœ¨é…ç½®æ–‡ä»¶æ–°å¢å›ºå®šèŠ‚ç‚¹ WeTools ï¼Œç¨‹åºä¼šè‡ªåŠ¨è§£æå­èŠ‚ç‚¹ã€‚
 
-AddSqlSugarMysqlConfiguration(this IConfigurationBuilder builder, SqlSugarDBConfigOption option) Ê¹ÓÃ´Ë·½·¨ĞèÒª×Ô¼º´´½¨Options¶ÔÏó£¬½«ÅäÖÃ´«Èë½øÈ¥¡£
+AddSqlSugarDBConfiguration(this IConfigurationBuilder builder, SqlSugarDBConfigOption option) ä½¿ç”¨æ­¤æ–¹æ³•éœ€è¦è‡ªå·±åˆ›å»ºOptionså¯¹è±¡ï¼Œå°†é…ç½®ä¼ å…¥è¿›å»ã€‚
 
-AddSqlSugarDBConfiguration(this IConfigurationBuilder builder, ISqlSugarDBConfigService configService) Ê¹ÓÃ´Ë·½·¨ĞèÒª×Ô¼ºÊµÏÖ ISqlSugarDBConfigService½Ó¿Ú¶ÁÈ¡ÅäÖÃ¡£
+AddSqlSugarDBConfiguration(this IConfigurationBuilder builder, ISqlSugarDBConfigService configService) ä½¿ç”¨æ­¤æ–¹æ³•éœ€è¦è‡ªå·±å®ç° ISqlSugarDBConfigServiceæ¥å£è¯»å–é…ç½®ã€‚
 
-AddSqlSugarDBConfiguration(this IConfigurationBuilder builder, SqlSugarDBConfigOption option, ISqlSugarDBConfigService configService)Ê¹ÓÃ´Ë·½·¨ĞèÒª×Ô¼º´´½¨Options¶ÔÏó£¬×Ô¼ºÊµÏÖ ISqlSugarDBConfigService½Ó¿Ú¶ÁÈ¡ÅäÖÃ¡£
+AddSqlSugarDBConfiguration(this IConfigurationBuilder builder, SqlSugarDBConfigOption option, ISqlSugarDBConfigService configService)ä½¿ç”¨æ­¤æ–¹æ³•éœ€è¦è‡ªå·±åˆ›å»ºOptionså¯¹è±¡ï¼Œè‡ªå·±å®ç° ISqlSugarDBConfigServiceæ¥å£è¯»å–é…ç½®ã€‚
 ```
-3.ÅäÖÃ½Úµã
+3.é…ç½®èŠ‚ç‚¹
 
 ```
 "WeTools":
 
 {
-"ConnectionString": "host=localhost;port=3306;user id=root;password=;database=sugar;",//mysql Á¬½Ó×Ö·û´®£¬×ÔĞĞĞŞ¸Ä
-"ReloadOnChange": true, //ÊÇ·ñÖØÔØÅäÖÃ Ä¬ÈÏfalse £¬´Ë½Úµã ¿ÉÒÔ²»ÅäÖÃ
-"ReloadInterval": 3, //ÖØÔØÊ±¼ä¼ä¸ô£¬µ¥Î»Ãë£¬±ØĞë´óÓÚ0£¬Èç¹ûÉèÖÃ0 Ê¹ÓÃÄ¬ÈÏÖµ3Ãë
-"InitTable": true //ÊÇ·ñ³õÊ¼»¯±í£¬´ËÅäÖÃ»á×Ô¶¯Éú³ÉÅäÖÃ±í£¬Ä¬ÈÏtrue,Èç¹û±íÒÑ´æÔÚ£¬²»»á½øĞĞ¸²¸Ç£¬´Ë½Úµã ¿ÉÒÔ²»ÅäÖÃ
-"DatabaseType": 2, //sqlsugar ÀàĞÍÒ»ÖÂ£¬Ä¬ÈÏ0  MySql = 0,SqlServer = 1,Sqlite = 2,Oracle = 3,PostgreSQL = 4,Dm = 5,Kdbndp = 6
+"ConnectionString": "host=localhost;port=3306;user id=root;password=;database=sugar;",//mysql è¿æ¥å­—ç¬¦ä¸²ï¼Œè‡ªè¡Œä¿®æ”¹
+"ReloadOnChange": true, //æ˜¯å¦é‡è½½é…ç½® é»˜è®¤false ï¼Œæ­¤èŠ‚ç‚¹ å¯ä»¥ä¸é…ç½®
+"ReloadInterval": 3, //é‡è½½æ—¶é—´é—´éš”ï¼Œå•ä½ç§’ï¼Œå¿…é¡»å¤§äº0ï¼Œå¦‚æœè®¾ç½®0 ä½¿ç”¨é»˜è®¤å€¼3ç§’
+"InitTable": true //æ˜¯å¦åˆå§‹åŒ–è¡¨ï¼Œæ­¤é…ç½®ä¼šè‡ªåŠ¨ç”Ÿæˆé…ç½®è¡¨ï¼Œé»˜è®¤true,å¦‚æœè¡¨å·²å­˜åœ¨ï¼Œä¸ä¼šè¿›è¡Œè¦†ç›–ï¼Œæ­¤èŠ‚ç‚¹ å¯ä»¥ä¸é…ç½®
+"DatabaseType": 2, //sqlsugar ç±»å‹ä¸€è‡´ï¼Œé»˜è®¤0  MySql = 0,SqlServer = 1,Sqlite = 2,Oracle = 3,PostgreSQL = 4,Dm = 5,Kdbndp = 6
 }
 ```
-# ÃùĞ»
-´ËÏîÄ¿²Î¿¼×ÔÑîÖĞ¿ÆÀÏÊ¦µÄ Zack.AnyDBConfigProvider(https://github.com/yangzhongke/Zack.AnyDBConfigProvider) 
+# é¸£è°¢
+æ­¤é¡¹ç›®å‚è€ƒè‡ªæ¨ä¸­ç§‘è€å¸ˆçš„ Zack.AnyDBConfigProvider(https://github.com/yangzhongke/Zack.AnyDBConfigProvider) 
